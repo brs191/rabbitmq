@@ -1,0 +1,13 @@
+plugins {
+  id 'base'
+}
+
+task zip (type: Zip) {
+  from 'src'
+}
+
+task hello {
+  doLast {
+    println 'Hello, World!! End is near'
+  }
+}
